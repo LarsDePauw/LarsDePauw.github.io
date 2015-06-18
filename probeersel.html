@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Let's play with JavaScript!</title>
+
+</head>
+<body>
+<button id="myButton">Bereken faculteit!</button>
+<div id="out"></div>
+
+
+
+
+
+
+
+
+<script type="application/javascript">
+    var b = document.getElementById("myButton");
+    function faculteit(x) {
+        var resultaat = 1;
+        for (var i = 2; i <= x; i++) {
+            resultaat = resultaat * i;
+        } alert(resultaat);
+        return resultaat;
+    };
+    b.onclick = function () {
+        var getal = prompt('Geef een getal');
+        var resultaat = faculteit(getal);
+    };
+</script>
+
+
+
+
+
+</body>
+</html>
+
