@@ -47,11 +47,11 @@ p#begin::first-letter {
     font-family: 'Lobster', cursive;
     border-radius: 20px;
     background: #3498db;
-    background-image: -webkit-linear-gradient(top, #45c7db, #3ea5b9);
-    background-image: -moz-linear-gradient(top, #45c7db, #3ea5b9);
-    background-image: -ms-linear-gradient(top, #45c7db, #3ea5b9);
-    background-image: -o-linear-gradient(top, #45c7db, #3ea5b9);
-    background-image: linear-gradient(top, #45c7db, #3ea5b9);
+    background-image: -webkit-linear-gradient(top, #49a3db, #4188b9);
+    background-image: -moz-linear-gradient(top, #49a3db, #4188b9);
+    background-image: -ms-linear-gradient(top, #49a3db, #4188b9);
+    background-image: -o-linear-gradient(top, #49a3db, #4188b9);
+    background-image: linear-gradient(top, #49a3db, #4188b9);
 
 }
 #divwelkom{
